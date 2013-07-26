@@ -1,0 +1,46 @@
+[
+        {
+            "key": "AZC_043",
+            "data": {
+                "name": "CambriaSuitesHayden",
+                "phone": "480-444-4444",
+                "address": "400N.HaydenRd.",
+                "city": "Scottsdale",
+                "state": "AZ",
+                "zip": 85255
+            }
+        },
+        {
+            "key": "AZS_011",
+            "data": {
+                "name": "ClarionScottsdalePeak",
+                "phone": "480-333-3333",
+                "address": "3000N.ScottsdaleRd.",
+                "city": "Scottsdale",
+                "state": "AZ",
+                "zip": 85255
+            }
+        },
+        {
+            "key": "CAS_021",
+            "data": {
+                "name": "WHotel",
+                "phone": "415-222-2222",
+                "address": "1813rdStreet",
+                "city": "SanFrancisco",
+                "state": "CA",
+                "zip": 94103
+            }
+        },
+        {
+            "key": "NYN_042",
+            "data": {
+                "name": "WaldorfHotel",
+                "phone": "212-555-5555",
+                "address": "301ParkAve",
+                "city": "NewYork",
+                "state": "NY",
+                "zip": 10019
+            }
+        }
+    ]

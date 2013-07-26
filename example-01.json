@@ -1,0 +1,16 @@
+{
+    "musician": {
+        "bootsy": {
+            "email": "bootsy@pfunk.com",
+            "instrument": "bass"
+        },
+        "george": {
+            "email": "george:pfunk.com"
+        }
+    },
+    "band": {
+        "george": {
+            "pfunk": "1968-2010"
+        }
+    }
+}
