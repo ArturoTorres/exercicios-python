@@ -2,7 +2,7 @@ import math
 import json
 import pprint
 
-json_file = open("lines.json")
+json_file = open("my_lines.json")
 
 data = json.load(json_file)
 
