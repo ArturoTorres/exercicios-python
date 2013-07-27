@@ -2,10 +2,6 @@ import math
 import json
 import pprint
 
-json_file = open("usa_nationalmall.geojson")
-
-data = json.load(json_file)
-
 def area(vertices):
 	x = 0
 	y = 1
@@ -16,8 +12,30 @@ def area(vertices):
 	a = a/2
 	return abs(a)
 
-for item in data:
-	for c in item["geometry"]["coordinates"]:
-		print "polygon area:",area(c)
+def polygonarea(json_polygons):
+	for item in json_polygons:
+		for c in item["geometry"]["coordinates"]:
+			print "polygon area:",area(c)
 
+us_mall = open("7_usa_nationalmall.geojson")
+
+us_mall_json = json.load(us_mall)
+
+print "us mall polys"
+polygonarea(us_mall_json)
+
+us_mall.close()
+
+gilberto_polys = open("polys.json")
+
+gilberto_polys_json = json.load(gilberto_polys)
+
+print "given polygon areas:"
+polygonarea(gilberto_polys_json)
+
+gilberto_polys.close()
+
+
+
+	
 
